@@ -1,7 +1,7 @@
 /* Centered text */
 .centered {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -10,4 +10,11 @@
 
   .cntr{
     text-align: center;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
   }
